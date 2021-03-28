@@ -34,19 +34,21 @@
     <title>Bilbo's Boutique {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <header class="container-fluid fixed top"></header>
+    <header class="container-fluid fixed-top"></header>
+
     {% if messages %}
         <div class="message-container"></div>
-    {% endif % }
+    {% endif %}
 
     {% block page_header %}
-    {% endif %}
+    {% endblock %}
 
     {% block content %}
     {% endblock %}
 
-    {% block post_load %}
+    {% block postloadjs %}
     {% endblock %}
+
     
   </body>
 </html>
