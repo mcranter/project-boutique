@@ -59,6 +59,10 @@ body {
     color: black !important;
 }
 
+.text-white {
+    color: white !important;
+}
+
 .border-black {
     border: 1px solid black !important;
 }
@@ -90,7 +94,8 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link, .update-link,
+.remove-item {
     cursor: pointer;
 }
 
